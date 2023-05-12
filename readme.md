@@ -24,7 +24,7 @@ laravel-lang-extractor /path/to/laravel/app
 
 or
 
-if you place the laravel-lang-extractor.exe file to the base path of your laravel project. First open the command prompt and run this command!
+if you place the laravel-lang-extractor.exe file to the base path of your laravel project. Open the command prompt in the base directory and run this command!
 
 ```
 ./laravel-lang-extractor
