@@ -1,6 +1,6 @@
 # Laravel Language Extractor
 
-The Laravel Language Extractor is a command-line tool for extracting localization keywords from Laravel PHP source files. It searches through all PHP files in a specified directory and extracts all translation keys used in the `__()` helper function and outputs them to a JSON file.
+The Laravel Language Extractor is a command-line tool for extracting localization keywords from Laravel PHP source files. It searches through all Laravel Project in a specified directory and extracts all translation keys used in the `__()` helper function and outputs them to a JSON file.
 
 ## Installation
 
@@ -12,7 +12,7 @@ The Laravel Language Extractor is distributed as a binary executable file. Downl
 laravel-lang-extractor <directory-path>
 ```
 
-The `directory-path` argument specifies the root directory where the PHP files to extract localization keys from are located.
+The `directory-path` argument specifies the root directory where the Laravel Project to extract localization keys from.
 
 The extracted localization keys are written to a file named `en.json` in the current working directory.
 
@@ -22,7 +22,15 @@ The extracted localization keys are written to a file named `en.json` in the cur
 laravel-lang-extractor /path/to/laravel/app
 ```
 
-This command will search for all PHP files in the `/path/to/laravel/app` directory and extract all localization keys used in the `__()` helper function, and output them to a JSON file named `en.json` in the current working directory.
+or
+
+if you place the laravel-lang-extractor.exe file to the base path of your laravel project. First open the command prompt and run this command!
+
+```
+./laravel-lang-extractor
+```
+
+This command will search for all Laravel Project in the `/path/to/laravel/app` directory and extract all localization keys used in the `__()` helper function, and output them to a JSON file named `en.json` in the current working directory.
 
 ## Output
 
