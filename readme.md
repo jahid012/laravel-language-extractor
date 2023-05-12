@@ -19,7 +19,7 @@ The extracted localization keys are written to a file named `en.json` in the cur
 ### Example
 
 ```
-laravel-lang-extractor /path/to/laravel/app
+laravel-lang-extractor /path/to/laravel/
 ```
 
 or
